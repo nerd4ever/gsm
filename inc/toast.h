@@ -38,7 +38,7 @@
 #endif
 
 #include "gsm.h"
-
+#include "sys/stat.h"
 #ifndef	S_ISREG
 #define	S_ISREG(x)	((x) & S_IFREG)
 #endif	/* S_ISREG */
